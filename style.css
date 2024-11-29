@@ -1,3 +1,37 @@
+
+#GARDETTE {
+    background-color: #FFD700; 
+    border-color: #DAA520;    
+    color: #000000;           
+    font-weight: bold;       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;  
+}
+#GARDETTE img {
+    border-radius: 50%;       
+    border: 3px solid #DAA520; 
+}
+#GARDETTE p {
+    text-align: center;       
+    margin-top: 10px;         
+    font-size: 1.1rem; 
+}
+#MONCHARMONT {
+    background-color: #FFD700; 
+    border-color: #DAA520;    
+    color: #000000;           
+    font-weight: bold;       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;  
+    }
+#MONCHARMONT img {
+    border-radius: 50%;       
+    border: 3px solid #DAA520; 
+    }
+#MONCHARMONT p {
+    text-align: center;       
+    margin-top: 10px;         
+    font-size: 1.1rem; 
 /* Style maximal pour l'élément #KUS */
 #KUS {
     background: linear-gradient(135deg, #007BFF, #00D4FF, #7B68EE, #FF69B4);

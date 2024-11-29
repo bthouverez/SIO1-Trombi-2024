@@ -1,0 +1,15 @@
+
+#ENJALRIC {
+    background-color: #000000; 
+    border: 5px solid #b806fe; 
+}
+
+#ENJALRIC p {
+    color: #b806fe; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+#ENJALRIC img {
+    border-radius: 50%; 
+}

@@ -1,6 +1,6 @@
 #BRAILLON{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
         background :linear-gradient(25deg, #ff6f61, #6b6bd6);
     border: 3px solid blue;

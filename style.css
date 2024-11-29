@@ -1,3 +1,10 @@
+#MARTIN-ESCOUBES{
+    background-color: #5f3045;
+    border-top: 20px #EB5353 dotted;
+    border-right: 20px #F9D923 double;
+    border-bottom: 20px #36AE7C dashed;
+    border-left: 20px #187498 solid;
+}
 #JULLIAND{
     background-color: rgba(175, 155, 155, 0.542);
     text-align: center;

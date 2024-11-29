@@ -3,3 +3,12 @@
 	border-radius: 10px;
 	background-color: orange;
 }
+
+#RETIERE {
+    background-color: blue;
+}
+ 
+#RETIERE p {
+    color: black;
+    text-align: center;
+}

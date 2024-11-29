@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Yekzan Kus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .photo {
+            margin-top: 20px;
+            position: relative;
+        }
+        .photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid transparent;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background-image: linear-gradient(135deg, #007BFF, #00D4FF);
+            background-origin: border-box;
+            padding: 5px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .photo img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .skills {
+            background-color: #007BFF;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px 0;
+            font-size: 1.2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .cv-link {
+            margin-top: 20px;
+        }
+        .cv-link a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .cv-link a:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Yekzan Kus</h1>
+        <p><strong>Étudiant en BTS SIO (2024-2026)</strong></p>
+        <div class="photo">
+            <img src="photo-Yekzan.jpg" alt="Photo de Yekzan Kus">
+        </div>
+        <div class="skills">
+            <p>Compétences :</p>
+            <ul style="list-style-type: none; padding: 0;">
+                <li>Développement Python</li>
+                <li>Gestion des réseaux</li>
+                <li>Cybersécurité</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p>Contact :</p>
+            <a href="mailto:yekzankus@icloud.com">yekzankus@icloud.com</a>
+        </div>
+        <div class="cv-link">
+            <a href="cv-yekzan.pdf" target="_blank">Télécharger mon CV</a>
+        </div>
+    </div>
+</body>
+</html>

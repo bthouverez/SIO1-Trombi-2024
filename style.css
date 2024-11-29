@@ -1,7 +1,8 @@
 #BRAILLON{
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    border: 4px solid blue;
+        background :linear-gradient(25deg, #ff6f61, #6b6bd6);
+    border: 3px solid blue;
     border-radius: 5%;
 }

@@ -1,3 +1,4 @@
+
 #ALKAN
 {
     
@@ -8,4 +9,11 @@
     border: 4px solid pink ;
 
 
+#RETIERE {
+    background-color: blue;
+}
+ 
+#RETIERE p {
+    color: black;
+    text-align: center;
 }

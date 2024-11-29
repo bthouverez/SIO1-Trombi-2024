@@ -1,29 +1,8 @@
-#KUS{
-background-color: aqua;
-}
-
-/* Arrière-plan animé de la page */
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(45deg, #007BFF, #00D4FF, #ff69b4, #ffa500);
-    background-size: 300% 300%;
-    animation: gradientShift 10s infinite;
-}
-
-@keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
 /* Style maximal pour l'élément #KUS */
 #KUS {
-    background: linear-gradient(135deg, aqua, #00D4FF, #7B68EE, #FF69B4);
+    background: linear-gradient(135deg, #007BFF, #00D4FF, #7B68EE, #FF69B4);
+    background-size: 300% 300%;
+    animation: gradientShift 10s infinite;
     border: 8px double rgba(255, 255, 255, 0.8);
     box-shadow: 
         0 0 15px rgba(0, 255, 255, 0.6), 
@@ -38,6 +17,13 @@ body {
     font-size: 2em;
     font-weight: bold;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Animation du dégradé de fond */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Effets au survol de #KUS */

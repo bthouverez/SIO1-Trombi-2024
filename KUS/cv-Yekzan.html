@@ -22,11 +22,11 @@
         /* Container */
         .container {
             background-color: #ffffff;
-            border-radius: 20px;
+            border-radius: 15px;
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-            padding: 40px;
+            padding: 30px;
             width: 100%;
-            max-width: 700px;
+            max-width: 650px;
             text-align: center;
             overflow: hidden;
             height: auto;
@@ -35,24 +35,24 @@
         }
 
         .container:hover {
-            transform: scale(1.03);
+            transform: scale(1.02);
             box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
         }
 
         /* Title */
         h1 {
-            font-size: 2.8rem;
+            font-size: 2.4rem;
             color: #0056b3;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             font-weight: 700;
             text-transform: uppercase;
         }
 
         /* Subtitle */
         p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #666;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             line-height: 1.6;
         }
 
@@ -63,33 +63,33 @@
 
         .photo img {
             border-radius: 50%;
-            width: 160px;
-            height: 160px;
+            width: 140px;
+            height: 140px;
             object-fit: cover;
-            border: 8px solid #007bff;
+            border: 6px solid #007bff;
             box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
             transition: transform 0.4s ease, box-shadow 0.4s ease;
         }
 
         .photo img:hover {
-            transform: scale(1.15);
-            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+            transform: scale(1.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
         }
 
         /* Skills Section */
         .skills {
             background-color: #007bff;
             color: #fff;
-            padding: 30px;
-            border-radius: 10px;
+            padding: 20px;
+            border-radius: 8px;
             margin-top: 25px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .skills p {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             text-transform: uppercase;
         }
 
@@ -97,8 +97,8 @@
             list-style-type: none;
             padding: 0;
             margin: 0;
-            font-size: 1.4rem;
-            line-height: 1.8;
+            font-size: 1.1rem;
+            line-height: 1.6;
         }
 
         .skills li {
@@ -122,10 +122,10 @@
 
         .contact a {
             color: #007bff;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             text-decoration: none;
             font-weight: 600;
-            padding: 10px 25px;
+            padding: 10px 20px;
             border: 2px solid #007bff;
             border-radius: 30px;
             transition: background-color 0.3s, color 0.3s;
@@ -138,18 +138,18 @@
 
         /* CV Link Section */
         .cv-link {
-            margin-top: 30px;
+            margin-top: 25px;
         }
 
         .cv-link a {
             display: inline-block;
             background-color: #0056b3;
             color: #fff;
-            padding: 12px 30px;
+            padding: 12px 28px;
             border-radius: 30px;
             font-weight: bold;
             text-decoration: none;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             transition: background-color 0.3s ease, transform 0.3s ease;
         }
 
@@ -159,34 +159,104 @@
         }
 
         /* Responsive Styles */
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             .container {
                 padding: 20px;
+                max-width: 85%;
             }
 
             h1 {
                 font-size: 2.2rem;
             }
 
-            .skills p {
-                font-size: 1.4rem;
-            }
-
-            .skills ul {
-                font-size: 1.2rem;
+            p {
+                font-size: 0.95rem;
             }
 
             .photo img {
-                width: 140px;
-                height: 140px;
+                width: 130px;
+                height: 130px;
+            }
+
+            .skills p {
+                font-size: 1.3rem;
+            }
+
+            .skills ul {
+                font-size: 1rem;
             }
 
             .contact a, .cv-link a {
                 font-size: 1rem;
-                padding: 10px 20px;
+                padding: 8px 18px;
             }
         }
 
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .photo img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .skills p {
+                font-size: 1.2rem;
+            }
+
+            .skills ul {
+                font-size: 1rem;
+            }
+
+            .contact a, .cv-link a {
+                font-size: 0.95rem;
+                padding: 8px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 0.85rem;
+            }
+
+            .photo img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .skills p {
+                font-size: 1.1rem;
+            }
+
+            .skills ul {
+                font-size: 0.9rem;
+            }
+
+            .contact a, .cv-link a {
+                font-size: 0.9rem;
+                padding: 6px 12px;
+            }
+        }
     </style>
 </head>
 <body>

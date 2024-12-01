@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Yekzan Kus</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        /* Container */
+        .container {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 650px;
+            text-align: center;
+            overflow: hidden;
+            height: auto;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Title */
+        h1 {
+            font-size: 2.4rem;
+            color: #0056b3;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        /* Subtitle */
+        p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        /* Profile Image */
+        .photo {
+            margin-top: 20px;
+        }
+
+        .photo img {
+            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border: 6px solid #007bff;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .photo img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Skills Section */
+        .skills {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills p {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .skills li {
+            padding-left: 20px;
+            position: relative;
+            font-weight: 500;
+        }
+
+        .skills li:before {
+            content: '•';
+            color: #ffffff;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        /* Contact Section */
+        .contact {
+            margin-top: 25px;
+        }
+
+        .contact a {
+            color: #007bff;
+            font-size: 1.1rem;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 20px;
+            border: 2px solid #007bff;
+            border-radius: 30px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .contact a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+
+        /* CV Link Section */
+        .cv-link {
+            margin-top: 25px;
+        }
+
+        .cv-link a {
+            display: inline-block;
+            background-color: #0056b3;
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .cv-link a:hover {
+            background-color: #003f8e;
+            transform: scale(1.05);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 20px;
+                max-width: 85%;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            p {
+                font-size: 0.95rem;
+            }
+
+            .photo img {
+                width: 130px;
+                height: 130px;
+            }
+
+            .skills p {
+                font-size: 1.3rem;
+            }
+
+            .skills ul {
+                font-size: 1rem;
+            }
+
+            .contact a, .cv-link a {
+                font-size: 1rem;
+                padding: 8px 18px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .photo img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .skills p {
+                font-size: 1.2rem;
+            }
+
+            .skills ul {
+                font-size: 1rem;
+            }
+
+            .contact a, .cv-link a {
+                font-size: 0.95rem;
+                padding: 8px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 0.85rem;
+            }
+
+            .photo img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .skills p {
+                font-size: 1.1rem;
+            }
+
+            .skills ul {
+                font-size: 0.9rem;
+            }
+
+            .contact a, .cv-link a {
+                font-size: 0.9rem;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Yekzan Kus</h1>
+        <p><strong>Étudiant en BTS SIO (2024-2026)</strong></p>
+
+        <div class="photo">
+            <img src="photo-Yekzan.jpg" alt="Photo de Yekzan Kus">
+        </div>
+
+        <div class="skills">
+            <p>Compétences :</p>
+            <ul>
+                <li>Développement Python</li>
+                <li>Gestion des réseaux</li>
+                <li>Cybersécurité</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <p>Contact :</p>
+            <a href="mailto:yekzankus@icloud.com">yekzankus@icloud.com</a>
+        </div>
+
+        <div class="cv-link">
+            <a href="cv-yekzan.pdf" target="_blank">Télécharger mon CV</a>
+        </div>
+    </div>
+</body>
+</html>

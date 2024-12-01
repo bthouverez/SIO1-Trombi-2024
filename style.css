@@ -1,3 +1,57 @@
+
+#MAISSE {
+    --sz: 16px;
+    --c0: #fff0;
+    --c1: #bdd0e1;
+    --c2: #809bb9;
+    --c3: #3e394a;
+    --c4: #18151f;
+    --ts: 50%/ calc(var(--sz) * 13.0) calc(var(--sz) * 21.0);
+    --bp: calc(var(--sz)* -6.5) calc(var(--sz)* -10.5);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    --bg: 
+        conic-gradient(from 0deg at 79.5% 7.45%, var(--c2) 0 120deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -60deg at 73% 5.45%, var(--c2) 0 60deg,  var(--c3) 0 120deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from 60deg at 92.5% 32.25%, var(--c4) 0 60deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -90deg at 8% 50%, var(--c4) 0 30deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from 60deg at 92% 50%, var(--c4) 0 30deg, var(--c0) 0 100%) var(--ts),
+        linear-gradient(150deg, var(--c3) 0 11%,  var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -60deg at 30% 11.25%, var(--c4) 0 60deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from 90deg at 50% 0.5%, var(--c4) 0 30deg, var(--c0) 0 150deg,  var(--c4) 0 100%) var(--ts),
+        conic-gradient(from 0deg at 97.5% 50%, var(--c4) 0 90deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -60deg at 54.45% 16.5%, var(--c1) 0 120deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -60deg at 48.75% 17.95%, var(--c2) 0 120deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -60deg at 23.07% 25%, var(--c1) 0 120deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -60deg at 45.45% 27.5%, var(--c3) 0 60deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -60deg at 76.92% 24.3%, var(--c1) 0 120deg, var(--c0) 0 100%) var(--ts),
+        conic-gradient(from -60deg at 76.92% 38%, var(--c2) 0 60deg, var(--c3) 0 120deg, var(--c0) 0 100%) var(--ts),
+
+    background: var(--bg), var(--bg);
+    background-position: 
+        var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), 
+        var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), 
+        var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), 
+        0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 
+        0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 
+        0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+}
+
+#MAISSE p{
+	margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #333; /* Couleur de fond pour contraster avec le texte blanc */
+        color: white; /* Couleur du texte */
+        font-family: Arial, sans-serif; /* Style de police */
+	text-align: center;
+	
+}
+
 #DESCOMBES{
     background-color: yellow;
     text-align: center;
@@ -74,6 +128,7 @@
     text-align: center;       
     margin-top: 10px;         
     font-size: 1.1rem; 
+}
 /* Style maximal pour l'élément #KUS */
 #KUS {
     background: linear-gradient(135deg, #007BFF, #00D4FF, #7B68EE, #FF69B4);

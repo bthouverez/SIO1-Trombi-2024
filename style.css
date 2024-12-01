@@ -10,7 +10,6 @@
     --bp: calc(var(--sz)* -6.5) calc(var(--sz)* -10.5);
     margin: 0;
     padding: 0;
-    height: 100vh;
     overflow: hidden;
     --bg: 
         conic-gradient(from 0deg at 79.5% 7.45%, var(--c2) 0 120deg, var(--c0) 0 100%) var(--ts),
@@ -41,7 +40,7 @@
 
 #MAISSE p{
 	margin: 0;
-        height: 100vh;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
